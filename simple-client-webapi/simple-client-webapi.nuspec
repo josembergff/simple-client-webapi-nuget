@@ -7,7 +7,7 @@
     <authors>Josemberg Ferreira</authors>
     <licenseUrl>https://raw.githubusercontent.com/josembergff/simple-client-webapi-nuget/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/josembergff/simple-client-webapi-nuget</projectUrl>
-    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <iconUrl>https://cdn3.iconfinder.com/data/icons/data-sharing-and-cloud-lineal-style/512/apiprogrammingdevolperinterfaceappcomputer-512.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Simple client for request webapi</description>
     <releaseNotes>Adicionando os demais metódos</releaseNotes>
