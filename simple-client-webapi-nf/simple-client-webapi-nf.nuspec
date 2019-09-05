@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>simple-client-webapi-nf</id>
+    <version>1.0.0</version>
+    <title>Simples Client WebApi Netframework</title>
+    <authors>Josemberg Ferreira</authors>
+    <licenseUrl>https://github.com/josembergff/simple-client-webapi-nuget</licenseUrl>
+    <projectUrl>https://github.com/josembergff/simple-client-webapi-nuget</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple client for request webapi</description>
+    <releaseNotes>Primeira versão atualizando o get</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>client, webapi, request webapi, httpclient, jwt</tags>
+  </metadata>
+</package>
