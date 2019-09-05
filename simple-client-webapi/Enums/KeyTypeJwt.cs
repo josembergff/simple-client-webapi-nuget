@@ -1,5 +1,4 @@
-﻿
-namespace ServiceClientApi.Enums
+﻿namespace SimpleClientWebApi.Enums
 {
     public enum KeyTypeJwt
     {

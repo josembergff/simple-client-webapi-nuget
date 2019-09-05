@@ -3,17 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceClientApi", "ServiceClientApi\ServiceClientApi.csproj", "{00BC2E12-FB7F-4781-8C64-EBE986801045}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-client-webapi-nf", "simple-client-webapi-nf\simple-client-webapi-nf.csproj", "{C74AEAAF-4E2E-49DE-8304-B87473108615}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F17B0A52-BF69-4C18-A3BD-26240253EDD5}"
 	ProjectSection(SolutionItems) = preProject
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simple-client-webapi", "simple-client-webapi\simple-client-webapi.csproj", "{CBFE27A8-49F7-4656-9E12-0094DCF791E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleClientWebApi", "simple-client-webapi\SimpleClientWebApi.csproj", "{CBFE27A8-49F7-4656-9E12-0094DCF791E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00BC2E12-FB7F-4781-8C64-EBE986801045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00BC2E12-FB7F-4781-8C64-EBE986801045}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00BC2E12-FB7F-4781-8C64-EBE986801045}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00BC2E12-FB7F-4781-8C64-EBE986801045}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C74AEAAF-4E2E-49DE-8304-B87473108615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C74AEAAF-4E2E-49DE-8304-B87473108615}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C74AEAAF-4E2E-49DE-8304-B87473108615}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C74AEAAF-4E2E-49DE-8304-B87473108615}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CBFE27A8-49F7-4656-9E12-0094DCF791E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CBFE27A8-49F7-4656-9E12-0094DCF791E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBFE27A8-49F7-4656-9E12-0094DCF791E0}.Release|Any CPU.ActiveCfg = Release|Any CPU

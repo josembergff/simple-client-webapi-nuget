@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ServiceClientApi
+namespace SimpleClientWebApi.Extends
 {
     public class Notifiable
     {
@@ -27,7 +27,7 @@ namespace ServiceClientApi
         public string NotificationsMessage()
         {
             var retorno = string.Empty;
-            if(listNotifiable != null && listNotifiable.Any())
+            if (listNotifiable != null && listNotifiable.Any())
             {
                 retorno = string.Join(";", listNotifiable.Select(s => s.Key).ToArray());
             }
