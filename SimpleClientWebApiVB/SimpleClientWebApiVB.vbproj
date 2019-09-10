@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>SimpleClientWebApiVB</RootNamespace>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Josemberg Farias Ferreira</Authors>
+    <Company>Josemberg Farias Ferreira</Company>
+    <Description>Simple client for request webapi in VB</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/josembergff/simple-client-webapi-nuget</PackageProjectUrl>
+    <PackageIconUrl>https://cdn3.iconfinder.com/data/icons/data-sharing-and-cloud-lineal-style/512/apiprogrammingdevolperinterfaceappcomputer-512.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/josembergff/simple-client-webapi-nuget</RepositoryUrl>
+    <RepositoryType>Open Source</RepositoryType>
+    <PackageTags>client, webapi, request webapi, httpclient, jwt</PackageTags>
+    <PackageReleaseNotes>Primeira versão atualizando o get</PackageReleaseNotes>
+    <NeutralLanguage>pt-BR</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\simple-client-webapi\SimpleClientWebApi.csproj" />
+  </ItemGroup>
+
+</Project>

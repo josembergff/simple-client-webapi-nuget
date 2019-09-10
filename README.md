@@ -7,26 +7,26 @@ Package that performs simple requests for Web API.
 Package Manager
 
 ```bash
-PM> Install-Package simple-client-webapi
+PM> Install-Package SimpleClientWebApi
 ```
 
 or .NET CLI
 
 ```bash
-> dotnet add package simple-client-webapi
+> dotnet add package SimpleClientWebApi
 ```
 
 or Paket CLI
 
 ```bash
-> paket add simple-client-webapi
+> paket add SimpleClientWebApi
 ```
 
 ## Example Usage
 
 ```bash
-using simple-client-webapi;
-using simple-client-webapi.Enums;
+using SimpleClientWebApi;
+using SimpleClientWebApi.Enums;
 
 namespace ExampleConnectWebAPI
 {
