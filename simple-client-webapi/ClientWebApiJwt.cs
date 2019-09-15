@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿using default_webapi.Notifications;
+using Newtonsoft.Json;
 using SimpleClientWebApi.Enums;
-using SimpleClientWebApi.Extends;
 using System;
 using System.Net.Http;
 using System.Net.Http.Headers;

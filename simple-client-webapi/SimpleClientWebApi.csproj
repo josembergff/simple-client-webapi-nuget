@@ -4,7 +4,7 @@
     <TargetFramework>netstandard1.1</TargetFramework>
     <RootNamespace>simple_client_webapi</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Josemberg Farias Ferreira</Authors>
+    <Authors>Josemberg Ferreira</Authors>
     <Company />
     <Description>Simple client for request webapi</Description>
     <Copyright>MIT</Copyright>
@@ -22,6 +22,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="default-webapi" Version="1.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
