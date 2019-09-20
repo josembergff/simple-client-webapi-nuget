@@ -1,4 +1,4 @@
-﻿using default_webapi.Notifications;
+﻿using DefaultWebApi.Notifications;
 using Newtonsoft.Json;
 using SimpleClientWebApi.Enums;
 using System;
@@ -8,7 +8,7 @@ using System.Text;
 
 namespace SimpleClientWebApi
 {
-    public class ClientWebApiJwt : Notifiable
+    public class ClientWebApiJwt : Notification
     {
         private readonly string _keyJwt;
         private readonly string _uriWebApi;
@@ -45,7 +45,7 @@ namespace SimpleClientWebApi
             }
             catch (Exception ex)
             {
-                AddNotification(string.Format("Erro send request get with object. Url: {0}. Error message: {1}", url, ex.Message), ex);
+                AddNotification("Get", string.Format("Erro send request get with object. Url: {0}. Error message: {1}", url, ex.Message), ex);
             }
 
             return retorno;
@@ -61,7 +61,7 @@ namespace SimpleClientWebApi
             }
             catch (Exception ex)
             {
-                AddNotification(string.Format("Erro send request get with object. Url: {0}. Error message: {1}", url, ex.Message), ex);
+                AddNotification("Post", string.Format("Erro send request get with object. Url: {0}. Error message: {1}", url, ex.Message), ex);
             }
 
             return retorno;
@@ -77,7 +77,7 @@ namespace SimpleClientWebApi
             }
             catch (Exception ex)
             {
-                AddNotification(string.Format("Erro send request get with object. Url: {0}. Error message: {1}", url, ex.Message), ex);
+                AddNotification("Put", string.Format("Erro send request get with object. Url: {0}. Error message: {1}", url, ex.Message), ex);
             }
 
             return retorno;
@@ -93,7 +93,7 @@ namespace SimpleClientWebApi
             }
             catch (Exception ex)
             {
-                AddNotification(string.Format("Erro send request get with object. Url: {0}. Error message: {1}", url, ex.Message), ex);
+                AddNotification("Delete", string.Format("Erro send request get with object. Url: {0}. Error message: {1}", url, ex.Message), ex);
             }
 
             return retorno;
@@ -161,7 +161,7 @@ namespace SimpleClientWebApi
             }
             else
             {
-                AddNotification(string.Format("Return status incorrect. Status return: {0}", reponse.StatusCode.ToString()), reponse.StatusCode);
+                AddNotification("ReturnRequest", string.Format("Return status incorrect. Status return: {0}", reponse.StatusCode.ToString()), reponse.StatusCode);
             }
 
             return retorno;

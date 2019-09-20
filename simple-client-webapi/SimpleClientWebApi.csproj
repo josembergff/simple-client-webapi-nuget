@@ -14,21 +14,33 @@
     <PackageProjectUrl>https://github.com/josembergff/simple-client-webapi-nuget</PackageProjectUrl>
     <RepositoryType>Open Source</RepositoryType>
     <PackageReleaseNotes>Primeira versão atualizando o get</PackageReleaseNotes>
-    <Version>5.0.1</Version>
-    <AssemblyVersion>5.0.1.0</AssemblyVersion>
-    <FileVersion>5.0.1.0</FileVersion>
+    <Version>6.0.0</Version>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <FileVersion>6.0.0.0</FileVersion>
     <PackageIconUrl>https://cdn3.iconfinder.com/data/icons/data-sharing-and-cloud-lineal-style/512/apiprogrammingdevolperinterfaceappcomputer-512.png</PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/josembergff/simple-client-webapi-nuget/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="default-webapi" Version="1.0.2" />
+    <PackageReference Include="DefaultWebApi" Version="2.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Legacy">
+      <!-- <HintPath>Legacy\System.ServiceModel.Activation.dll</HintPath>
+      <HintPath>Legacy\System.ServiceModel.Activities.dll</HintPath>
+      <HintPath>Legacy\System.ServiceModel.Channels.dll</HintPath> -->
+      <HintPath>Legacy\ServiceModel.dll</HintPath>
+      <!-- <HintPath>Legacy\System.ServiceModel.Routing.dll</HintPath>
+      <HintPath>Legacy\System.ServiceModel.Web.dll</HintPath> -->
+    </Reference>
   </ItemGroup>
 
 </Project>

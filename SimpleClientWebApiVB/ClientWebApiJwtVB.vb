@@ -30,7 +30,7 @@ Public Class ClientWebApiJwtVB
     Private Sub getNotifications(ByVal client As ClientWebApiJwt)
         If Not client.IsValid() Then
             NotificationsMessage = client.NotificationsMessage
-            Notifications = client.Notifications
+            Notifications = client.ListNotifications
         End If
     End Sub
 
