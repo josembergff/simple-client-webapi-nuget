@@ -51,9 +51,9 @@ Public Class ClientWebApiJwtVB
         If Not String.IsNullOrEmpty(route) Then
             urlApi = _uriWebApi + "/" + route
         End If
-        Dim serializedEmailContract = JsonConvert.SerializeObject(objectSend)
+        Dim serializedObject = JsonConvert.SerializeObject(objectSend)
 
-        Dim content = New StringContent(serializedEmailContract, Encoding.UTF8, "application/json")
+        Dim content = New StringContent(serializedObject, Encoding.UTF8, "application/json")
         Dim result = _client.PostAsync(urlApi, content).Result
 
         If result.StatusCode = System.Net.HttpStatusCode.OK Then
